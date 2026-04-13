@@ -1,16 +1,26 @@
 def clean_data(data):
     """
-    TODO: Implement your "clean_heartrate_data" function from TLAB #1 & #2
-    within this module. Note that this code will be *slightly* different
-    from your original function.
+    Description: 
+        Cleaning the provided dataset of user viewing times.
+        Removing the header row/values.
+        Ensuring that all values are of numerical float dtype.
+
+    Input:
+        data: list of strings representing user viewing times
+
+    Output:
+        clean_data: list of float values representing user viewing times.
+
     """
     
     clean_data = []
     # iterating through values in the data list
     for value in data:
+        # removing data header
         if 'minute' in value:
             continue
         else:
+            # typecasting to numerical format
             clean_data.append(float(value))
 
     return clean_data
