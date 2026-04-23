@@ -16,7 +16,7 @@ Align with stakeholders on what success means before interpreting any numbers.
 Consider what it would mean if the treatment dramatically exceeded expectations.
 * By reducing the number of words/slide, we risk oversimplifying the educational content. In that case, higher test scores and course completion rates can suggest that the course has become too easy.
 * By changing the number words/slide we should be mindful of unreasonably high or low viewing times. This can suggest user difficulty with learning comprehension, or skimming because the content is too simple or too dense. 
-* So far, decreasing the word count has increased the avg. viewing time, which suggets that users are more engaged with the educational content. We need to understand what is the words/slide sweet-spot wherein engagement (or viewing time) is reasonable: not too high suggesting educational strain, but not too low which can suggest skimming for brevity.
+* So far, decreasing the word count has increased the mean viewing time, which suggets that users are more engaged with the educational content. We need to understand what is the words/slide sweet-spot, wherein engagement (or viewing time) is reasonable: not too high suggesting educational strain, but not too low which can suggest skimming for brevity.
 
 ## Data Sourcing
 Reflect on what other data sources you can use to answer your stakeholders exploratory goals.
